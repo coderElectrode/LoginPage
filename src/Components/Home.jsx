@@ -28,12 +28,10 @@ const Home = () => {
               t is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here
             </p>
             <a href="#">Read More</a>
           </div>
-          <div className="showcase-form">
+          <div className="showcase-form card">
             <h2>LogIn</h2>
             <form>
               <div className="form-control">
@@ -42,6 +40,7 @@ const Home = () => {
               <div className="form-control">
                 <input type="password" placeholder="Eneter Password" />
               </div>
+              <input type="submit" value="send" className="btn btn-primary" />
             </form>
           </div>
         </div>
